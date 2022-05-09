@@ -2,9 +2,9 @@ package boardgame;
 
 public class Piece {
 
-	private Position position;
+	protected Position position;
 	
-	protected Board board;
+	private Board board;
 	
 	public Piece(Board board) {
 		this.position = null;
